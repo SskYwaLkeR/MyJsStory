@@ -5,13 +5,13 @@ mongoose.connect('mongodb://localhost/user',()=>{
   console.log('listening on port 3000');
 });
 
-let userSchema = {
+let userSchema = mongoose.Schema({
   name: String,
   email: String,
   password: String,
   username: String,
   messages: Array
-};
+});
 
 userSchema.plugin(passportLocalMongoose);
 
