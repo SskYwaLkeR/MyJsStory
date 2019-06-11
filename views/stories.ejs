@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyJsStory|stories</title>
+</head>
+
+<body>
+
+    <% stories.forEach(function (elem){ %>
+    <div class="story">
+        <h2>username</h2>
+        <span><%= elem.Username %></span>
+        <h2>Description </h2>
+        <h2><%= elem.Description %></h2>
+        <h2>Youtube channels</h2>
+        <h3><%= elem.YoutubeChannel %></h3>
+        <h2>Blogs</h2>
+        <h3><%= elem.Blogs %></h3>
+        <h2>Books</h2>
+        <h3><%= elem.Books %></h3>
+        <h2>Mentors</h2>
+        <h3><%= elem.Mentors %></h3>
+        <h2>Courses</h2>
+        <h3><%= elem.Courses %></h3>
+        <h2>Conclusion</h2>
+        <h3><%= elem.Conclusion %></h3><br><br><br>  
+    </div>
+    <%})%>
+
+
+    <a href="/logout">logout</a>
+</body>
+
+</html>
