@@ -84,6 +84,16 @@ router.get('/story',(req, res)=>{
   res.render('storyForm')
 });
 
+//get login page;
+router.get('/login',(req,res)=>{
+  res.render('login');
+});
+
+//get register page
+router.get('/signup',(req,res)=>{
+  res.render('Register');
+})
+
 
 //post login
 

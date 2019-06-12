@@ -6,26 +6,41 @@
   </head>
   <body>
 
-    <h1>Welcome....</h1>
+    <div id="background">
 
-    <h3>Sign Up</h3>
+      <nav>
+        <div class="logo">
+          <div class="img"></div>
+          <div class="title">My <br> Story</div>
+        </div>
+        <div class="side-button">
+          <p>Don't have account?</p>
+          <a href="/signup">Sign Up</a>
+        </div>
+      </nav>
 
-    <form action="/register" method="post">
+      <div id="main">
+        <div class="content">
+          <div class="main-content">
+              <h1>Welcome to MyJS Story</h1>
+              <p>Share your experience how you learnt JavaScript.What was <br> your  learning path, which thing you followed to gain knowledge <br> of this wonderful language</p>
+              <a href="/login">Login</a>
+          </div>
+        </div>
+        <div class="imhage"></div>
+      </div>
 
-      <input type="text" name="username" placeholder="username">
-      <input type="text" name="email" placeholder="email">
-      <input type="text" name="name" placeholder="name">
-      <input type="password" name="password" placeholder="password">
-      <input type="submit" value="register">
-    </form>
+      <div id="bottom"></div>
 
-    <h3>Login</h3>
-    <form action="/login" method="post">
-      <input type="text" name="username" placeholder="username">
-      <input type="password" name="password" placeholder="password">
-      <input type="submit" value="login">
+
+
+    </div>
+
+   
+
     
-    </form>
+
+   
    
 
   </body>
