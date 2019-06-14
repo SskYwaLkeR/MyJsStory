@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/stylesheets/loginSignup.css">
     <title>Story|Register</title>
 </head>
 <body>
-        <h3>Sign Up</h3>
+      <div id="background">
+          <div id="formie">
+                <form action="/register" method="post">
 
-        <form action="/register" method="post">
+                    <input type="text" name="username" placeholder="username"> <br><br>
+                    <input type="text" name="email" placeholder="email"> <br><br>
+                    <input type="text" name="name" placeholder="name"> <br><br>
+                    <input type="password" name="password" placeholder="password"><br><br><br>
+                    <input type="submit" value="register">
+                  </form>
+          </div>
+      </div>
 
-            <input type="text" name="username" placeholder="username">
-            <input type="text" name="email" placeholder="email">
-            <input type="text" name="name" placeholder="name">
-            <input type="password" name="password" placeholder="password">
-            <input type="submit" value="register">
-          </form>
+       
     
 </body>
 </html>

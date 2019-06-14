@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#background{
+    widows: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #2dcccc;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#formy{
+    width: 29%;
+    height: 85%;
+    background-image: url('../images/Group\ 1.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formie{
+    width: 29%;
+    height: 85%;
+    background-image: url('../images/Group\ 3.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+form input[type="text"]{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: solid 5px #ffff00;
+}
+
+form input[type="password"]{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: solid 5px yellow;
+}
+
+form input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #2DCCCC;
+    color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px rgb(122, 223, 223);
+    transition: all ease-in-out .3s;
+}
+
+form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(82, 219, 219);
+}
